@@ -1,0 +1,23 @@
+[
+    { "type": "constructor", "payable": false, "inputs": [] },
+    { "type": "error", "name": "YouAreNotADoctor", "inputs": [] },
+    {
+        "type": "function",
+        "name": "storeHash",
+        "constant": false,
+        "payable": false,
+        "gas": 29000000,
+        "inputs": [{ "type": "string", "name": "fileHash" }],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "verifyHash",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 29000000,
+        "inputs": [{ "type": "string", "name": "fileHash" }],
+        "outputs": [{ "type": "bool" }]
+    }
+]
