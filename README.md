@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HEALTHCARE HARDHAT PROJECT
+
+This is a front end from the healthcare project.
 
 ## Getting Started
 
-First, run the development server:
+-   git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+    -   You can check if git is installed with the `git --version` command
+
+-   Nodejs
+
+    -   You can check if Nodejs is installed with the `node --version` command
+
+-   Yarn
+    -   You can check if Yarn is installed with the `yarn --version` command
+
+## Quickstart
+
+Run the smart contract first
+
+```
+git clone https://github.com/Yehezkiel-simbuang/hardhat_healthcare
+cd hardhat_healthcare
+yarn
+yarn hardhat node
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the frontend part
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+git clone https://github.com/Yehezkiel-simbuang/frontend_healthcare
+cd frontend_healthcare
+yarn
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Before `yarn dev` you need to create an account on [web3 storage](https://web3.storage/) then create an api token and pass it to the file that need this token.
